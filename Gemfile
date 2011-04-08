@@ -20,7 +20,7 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # Bundle the extra gems:
 # gem 'bj'
 # gem 'nokogiri'
-# gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'aws-s3', :require => 'aws/s3'
 
 # Bundle gems for the local environment. Make sure to
@@ -34,5 +34,6 @@ end
 
 group :development do
 	gem 'rspec-rails', '2.4.1'
+	gem 'annotate-models', '1.0.4'
 end
 
