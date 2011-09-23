@@ -27,13 +27,13 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
 group :test do
-   	gem 'rspec', '2.4.0'
+   	gem 'rspec-rails', '2.6.1'
 	gem 'webrat', '0.7.3'
 	gem 'spork', '0.8.4'
 end
 
 group :development do
-	gem 'rspec-rails', '2.4.1'
-	gem 'annotate-models', '1.0.4'
+	gem 'rspec-rails', '2.6.1'
+	gem 'annotate', '2.4.0'
 end
 
